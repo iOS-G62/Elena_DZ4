@@ -21,11 +21,12 @@ let Vilik = Cat.init(name: "Vilik" ,color: "gray", weight: 20, age: 5, documents
     @IBOutlet weak var ageLabel: UILabel!
     @IBOutlet weak var aliveLabel: UILabel!
 
-    
+
+
+
     override func viewDidLoad() {
         super.viewDidLoad()
         updateUI()
-
 }
 
     func updateUI() {
